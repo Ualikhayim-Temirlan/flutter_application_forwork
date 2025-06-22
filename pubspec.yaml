@@ -1,0 +1,43 @@
+name: flutter_application_2
+description: "Flutter app with inner state visualization"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State management
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.5
+  
+  # Local storage
+  shared_preferences: ^2.2.3
+  
+  # UI
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  # Testing
+  bloc_test: ^9.1.7
+  mocktail: ^1.0.4
+  
+  # Linting
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Uncomment the following lines if you have assets
+  # assets:
+  #   - assets/images/
+  #   - assets/animations/
+  
+  # Uncomment the followin
